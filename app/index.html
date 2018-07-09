@@ -28,16 +28,16 @@
 							<ul class="stats">
 								<li class="stats-item">
 									<b class="stats-title">Твиты</b>
-									<b class="stats-count">57</b>
+									<b class="stats-count" id="tweetCounter"></b>
 								</li>							
-								<li class="stats-item">
+								<!-- <li class="stats-item">
 									<b class="stats-title">Лайки</b>
 									<b class="stats-count">112</b>
 								</li>							
 								<li class="stats-item">
 									<b class="stats-title">Репосты</b>
 									<b class="stats-count">85</b>
-								</li>						
+								</li>	 -->			
 							</ul>
 						</div>
 					</div>
@@ -49,42 +49,23 @@
 					<!-- Make a tweet -->
 					<div class="card mb-3">						
 						<div class="card-body">
-							<form>
+							<form id="postNewTweet">
 								<div class="form-group">									
-									<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Что нового?">									
+									<input type="text" id="tweetText" class="form-control" id="exampleInputEmail1" placeholder="Что нового?">									
 								</div>									
 								<button type="submit" class="btn btn-primary">Твитнуть</button>
 							</form>
 						</div>
 					</div>
 					<!-- Make a tweet -->
-					<div class="card tweet-card tweet-card-rounded-top">
+					<div class="card card-title-only tweet-card-rounded-top">
 						<div class="h4 mb-0">Твиты пользователя</div>						
 					</div>
-					<!-- Single Tweet -->
-					<div class="card tweet-card">
-						<div class="tweet-date">28 апреля 2017</div>
-						<div class="tweet-text"><p>Текст твита новый блог<a href="#"></a></p></div>
+					<!-- Tweet List -->
+					<div id="tweetsList">
+						
 					</div>
-					<!-- // Single Tweet -->
-					<!-- Single Tweet -->
-					<div class="card tweet-card">
-						<div class="tweet-date">28 апреля 2017</div>
-						<div class="tweet-text"><p>Текст твита новый блог<a href="#"></a></p></div>
-					</div>
-					<!-- // Single Tweet -->
-					<!-- Single Tweet -->
-					<div class="card tweet-card">
-						<div class="tweet-date">28 апреля 2017</div>
-						<div class="tweet-text"><p>Текст твита новый блог<a href="#"></a></p></div>
-					</div>
-					<!-- // Single Tweet -->		
-					<!-- Single Tweet -->
-					<div class="card tweet-card">
-						<div class="tweet-date">28 апреля 2017</div>
-						<div class="tweet-text"><p>Текст твита новый блог<a href="#"></a></p></div>
-					</div>
-					<!-- // Single Tweet -->
+					<!-- // Tweet List -->
 				<!-- Footer -->
 					<footer class="footer">
 						<p class="footer-copyright">&copy; Станислав Москов 2018<br/>Сверстано с <i class="fa fa-heart"> </i> в <a href="http://webcademy.ru/" class="footer-link"  target="_blank">Webcademy.ru</a> в 2018 году.</p>			
@@ -99,6 +80,7 @@
 	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 	
 </body>
 </html>
