@@ -1,7 +1,7 @@
 {
   "name": "lesson-twitter-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. В первом уроке мы сделаем сборку под наш проект. \r Она будет минимальна в настройках, \r но максимально работоспособна и эффективна. \r Все что необходимо для быстрой верстки, чтобы работать, \r писать код и не отвлекаться на мелочи.\r Для этого мы используем Gulp, npm, browser-sync и less.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
     "gulp-less": "^3.5.0",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanislavfor/lesson-twitter-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stanislavfor/lesson-twitter-project/issues"
+  },
+  "homepage": "https://github.com/stanislavfor/lesson-twitter-project#readme"
 }
